@@ -3,7 +3,7 @@
   width: 500px;
   height: 200px;
   object-fit: contain;
-  padding-left:325px;
+  padding-left:410px;
   image-rendering: pixelated;
  }
 
@@ -55,7 +55,6 @@ button:hover {
   background-color: rgba(0,0,0,0.4); 
 }
 
-/* Modal Content */
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -64,7 +63,7 @@ button:hover {
   width: 80%;
 }
 
-/* The Close Button */
+
 .close {
   color: #aaaaaa;
   float: right;
