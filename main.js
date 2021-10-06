@@ -53,7 +53,7 @@ const characters = {
     "ghirahim": {
         name: "Wolf Link",
         img: "https://farm8.staticflickr.com/7141/6839599303_bc985564af_o.jpg",
-        game: "Twilight Princess",
+        game: "Game: Twilight Princess",
         age: "Age: 16",
         sex: "Sex: Male",
         height: "Height: 34“",
@@ -62,7 +62,7 @@ const characters = {
     "hestu": {
         name: "OG Link",
         img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2af7648-2754-42e7-b98f-0fd9fa6ab5fd/d6k4qa9-958eaa0b-39b5-4ff4-a1c3-d930333347c3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mMmFmNzY0OC0yNzU0LTQyZTctYjk4Zi0wZmQ5ZmE2YWI1ZmQvZDZrNHFhOS05NThlYWEwYi0zOWI1LTRmZjQtYTFjMy1kOTMwMzMzMzQ3YzMucG5nIn1dXX0.luAKGh2iJbAaSkuWLUgKB18QqQ0a8n91TroOKN6rYgY",
-        game: "The Legend of Zelda",
+        game: "Game: The Legend of Zelda",
         age: "Age: 12",
         sex: "Sex: Male",
         height: "Height: Tiny",
@@ -71,7 +71,7 @@ const characters = {
     "ganondorf": {
         name: "Link",
         img: "https://vignette.wikia.nocookie.net/mighty355/images/2/22/Zelda_(SSB_3DS_%26_Wii_U).png/revision/latest?cb=https://vignette.wikia.nocookie.net/mighty355/images/2/22/Zelda_(SSB_3DS_%26_Wii_U).png/revision/latest?cb=20150815195546",
-        game: "The Legend of Zelda",
+        game: "Game: The Legend of Zelda",
         age: "Age: Young to young-adult",
         sex: "Sex: Female",
         height: "Height: Varies",
@@ -91,14 +91,14 @@ const characters = {
 for (let i = 0; i < charBtn.length; i++) {
     charBtn[i].addEventListener('click', function (e) {
         const character = characters[e.target.id]
-        primaryModalContent.innerHTML = `<img src="${character.img}"/>
-        <h2>${character.name}</h2><br>
-        ${character.game}<br>
+        primaryModalContent.innerHTML = `<br><img src="${character.img}"/>
+        <h3>${character.name}</h3><br>
+        <p>${character.game}<br>
         ${character.age}<br>
         ${character.sex}<br>
         ${character.height}<br>
-        ${character.weight}<br>`
-    
+        ${character.weight}</p><br>`
+        
         const span = document.createElement("span");
         span.classList.add("close")
         span.innerHTML = "&times;"
@@ -106,7 +106,7 @@ for (let i = 0; i < charBtn.length; i++) {
         span.addEventListener('click', () => {
             modal.style.display = "none"
         })
-
+        
         modal.style.display = "block";
     })
 }

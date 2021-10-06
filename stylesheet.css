@@ -1,8 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:17px;
-  line-height:1.6;
-  background-color:skyblue;
+  background-color:black;
 }
 
 #title img {
@@ -16,8 +15,8 @@ body{
 }
 
 h2 {
-  text-align: center;
-  color:saddlebrown;
+  text-align:center;
+  color:rgb(231, 231, 231);
 }
 
  .grid-container {
@@ -32,10 +31,9 @@ h2 {
 
 button {
   padding: 25px 100px;
-  background-color: lightgoldenrodyellow;
+  background-color:whitesmoke;
   font-weight: bolder;
   font-size: 24px;
-  color: sienna;
   border-radius: 10px;
 }
 
@@ -43,6 +41,7 @@ button:hover {
   cursor: pointer;
   transform: scale(1.15, 1.15);
   background-color:green;
+  
 }
 
 .grid-item {
@@ -70,9 +69,10 @@ button:hover {
   position: relative;
   background-color:lightyellow;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #888;
-  width: 70%;
+  width: 45%;
+  height: auto;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
 }
 
