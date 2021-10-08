@@ -69,13 +69,13 @@ const characters = {
         weight: "Weight: Child-like"
     },
     "ganondorf": {
-        name: "Link",
-        img: "https://vignette.wikia.nocookie.net/mighty355/images/2/22/Zelda_(SSB_3DS_%26_Wii_U).png/revision/latest?cb=https://vignette.wikia.nocookie.net/mighty355/images/2/22/Zelda_(SSB_3DS_%26_Wii_U).png/revision/latest?cb=20150815195546",
-        game: "Game: The Legend of Zelda",
-        age: "Age: Young to young-adult",
-        sex: "Sex: Female",
-        height: "Height: Varies",
-        weight: "Weight: Slender and fit"
+        name: "Deku Link",
+        img: "http://vignette4.wikia.nocookie.net/zelda/images/5/5f/Deku_Link_Artwork.png/revision/latest?cb=20111030135454",
+        game: "Game: Majoras Mask",
+        age: "Age: 10",
+        sex: "Sex: Male",
+        height: "Height: 2 feet",
+        weight: "Weight: As light as a nut"
     },
     "sidon": {
         name: "Link",
